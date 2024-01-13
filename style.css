@@ -1,0 +1,460 @@
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+@import url('https://fonts.cdnfonts.com/css/source-serif-4');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/eye.css');
+*,
+html {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    cursor: default;
+    padding: 0%;
+    margin: 0%;
+    background-color: #f8f7f3;
+    overflow-x: hidden;
+}
+
+nav {
+    margin: 1rem;
+    padding: 0%;
+    height: 2.5vh;
+}
+
+.logo-website {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.list-feature {
+    position: absolute;
+    top: 42px;
+    left: 35px;
+}
+
+.ul-navbar {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 35px;
+    justify-content: flex-start;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 14px;
+    color: #0d0c22;
+}
+
+.btn-login-singup {
+    position: absolute;
+    top: 42px;
+    right: 35px;
+}
+
+.ul-login-singup {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 35px;
+}
+
+.btn {
+    color: #0d0c22;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.btn1 {
+    background-size: 10px;
+    background-color: #0d0c22;
+    padding: 1rem;
+    border-radius: 5rem;
+    color: white;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 14px;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    transition: 0.3s ease all;
+    ;
+    box-shadow: 0 0 1rem red;
+}
+
+.Search-column {
+    position: absolute;
+    top: 35px;
+    right: 250px;
+    border-radius: 5rem;
+    padding: .6rem;
+    width: 20rem;
+}
+
+.section-content {
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 37.2rem;
+    background-color: #ffbac4;
+    color: #3d3d4e;
+    border-radius: 5rem;
+    padding: 10px 16px;
+    width: 22rem;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 14px;
+}
+
+.main-content {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.main-content1,
+.main-content2 {
+    margin: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    font-weight: 0.5px;
+    font-family: 'Source Serif 4', sans-serif;
+    height: 76px;
+    letter-spacing: 5px;
+    line-height: 76px;
+    color: #0d0c22;
+    font-weight: normal;
+}
+
+.suport-promotion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15rem;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 20px;
+    height: 36px;
+    color: #0d0c22;
+    font-weight: normal;
+}
+
+.btn-start {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #0d0c22;
+    margin: -11rem 42rem;
+    border-radius: 5rem;
+    width: 10rem;
+    height: 4rem;
+}
+
+.btn-start:hover {
+    cursor: pointer;
+    transition: 0.3s ease all;
+    ;
+    box-shadow: 0 0 1rem red;
+}
+
+.a-promotion {
+    text-decoration: none;
+    color: #f8f7f3;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 14px;
+    padding: 1rem;
+}
+
+.figur-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.figur-container .figur-box {
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.figur-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.figur-box:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s ease all;
+    ;
+    shadow: 0 0 1rem red;
+}
+
+.figur-box:hover {
+    cursor: pointer;
+    transition: 0.3s ease all;
+    ;
+    box-shadow: 0 0 1rem red;
+}
+
+.section-example {
+    height: 150vh;
+}
+
+.preference {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 13rem;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 48px;
+    height: 56px;
+    font-weight: normal;
+}
+
+.reference-container {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    align-items: center;
+    gap: 4rem;
+    margin: -10rem 1rem;
+}
+
+.reference-container .reference-box {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.reference-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.reference-box:hover img {
+    transform: scale(1.1);
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+
+.reference-box:hover {
+    cursor: pointer;
+    transition: 0.3s ease all;
+    ;
+    box-shadow: 0 0 1rem aqua;
+}
+
+.browse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16rem 40rem;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #0d0c22;
+    border-radius: 5rem;
+    height: 4rem 10rem;
+    width: 15rem;
+    padding: 1.5rem;
+    font-family: 'Mona-Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.browse:hover {
+    cursor: pointer;
+    transition: 0.3s ease all;
+    ;
+    box-shadow: 0 0 1rem red;
+}
+
+.a-browse {
+    text-decoration: none;
+}
+
+.closing {
+    padding: 0%;
+    margin: 0%;
+    height: 90vh;
+    background-color: #ffda79;
+}
+
+.main-sentens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    padding: 5rem;
+}
+
+.kalimat {
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 72px;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+.second-sentense {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -3rem;
+    text-align: center;
+}
+
+.kalimat2 {
+    line-height: 36px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: 'Mona-Sans', sans-serif;
+    font-weight: normal;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    padding: 1rem;
+    gap: 3rem;
+    font-size: 14px;
+    font-family: 'Mona-Sans', sans-serif;
+}
+
+.getstarted {
+    background-color: #0d0c22;
+    color: white;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.getstarted:hover {
+    cursor: pointer;
+    transition: 0.3s ease all;
+    box-shadow: 0 0 1rem blue;
+}
+
+.hiring {
+    background-color: white;
+    color: #0d0c22;
+    border-radius: 5rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.hiring:hover {
+    cursor: pointer;
+    transition: 0.3s ease all;
+    box-shadow: 0 0 1rem red;
+}
+
+.penutup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-penutup {
+    font-size: 20px;
+    font-family: 'Mona-Sans', sans-serif;
+    font-weight: normal;
+}
+
+.main {
+    text-decoration: underline;
+}
+
+.footer {
+    height: 60vh;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 1rem;
+}
+
+.footer-container .footer-box {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.footer-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-box:hover img {
+    transform: scale(1.1);
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+
+.footer-box:hover {
+    cursor: pointer;
+    transition: 0.3s ease all;
+    ;
+    box-shadow: 0 0 1rem aqua;
+}
+
+.logo-website2 {
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    margin: 5rem 8rem;
+}
+
+.akhiran {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: -7.5rem;
+    font-size: 14px;
+    font-family: 'Mona-Sans', sans-serif;
+    font-weight: bold;
+}
+
+.medsos {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    margin: 6rem;
+    font-size: 1.8rem;
+    gap: 1rem;
+}
+
+.end-game {
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    margin: 0rem 6rem;
+    gap: 2rem;
+}
+
+.end-game2 {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    margin: -1rem 6rem;
+    gap: 2rem;
+}
